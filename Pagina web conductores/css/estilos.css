@@ -1,0 +1,29 @@
+
+.contenedorlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+ 
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+
+}
+
+
+.headerlogin{
+    display: block;
+    justify-content: flex-end;
+    
+    
+}
+
+
+div.contenedor p{
+    color: blue;
+}
+
