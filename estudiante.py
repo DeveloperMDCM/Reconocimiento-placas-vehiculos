@@ -35,7 +35,7 @@ def leer_placa(img):
             # Se le envia el token a la APi de la web http://docs.platerecognizer.com/
             # Aqui tienes que colocar tu propio Token suscribiendote a la pagina
             files=dict(upload=fp),
-            headers={'Authorization': 'Token 14fde66f98e57ed984a08eab164233951e135e97 '})
+            headers={'Authorization': 'Token '})
     return response.json()  # retorna el json con los datos procesados
 # imprimir response.json() para ver los datos
 
